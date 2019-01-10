@@ -50,8 +50,8 @@ action_space = len(actions)
 
 # Set learning parameters
 e = 0.1  # epsilon
-lr = .01  # learning rate
-y = .99  # discount factor
+lr = .03  # learning rate
+y = .999  # discount factor
 num_episodes = 2000
 
 # create lists to contain total rewards and steps per episode
